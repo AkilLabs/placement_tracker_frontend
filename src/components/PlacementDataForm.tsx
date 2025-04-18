@@ -345,7 +345,7 @@ ${formData.PreFinalYearInternships.Remarks ? `- Remarks: ${formData.PreFinalYear
               disabled={generatingImage}
             >
               <Share2 className="w-4 h-4 mr-2" />
-              {generatingImage ? 'Generating...' : 'Generate & Forward'}
+              {generatingImage ? 'Generating...' : 'Share Report'}
             </Button>
           </div>
         </div>
