@@ -672,7 +672,7 @@ ${formData.PreFinalYearInternships.Remarks ? `- Remarks: ${formData.PreFinalYear
         </Button>
         <Button type="button" variant="primary" onClick={forwardToWhatsApp}>
           <Share2 className="w-4 h-4 mr-2" />
-          Create Image & Forward
+          Share Report
         </Button>
         <Button type="submit" variant="success" disabled={isSubmitting}>
           {isSubmitting ? 'Submitting...' : 'Submit Report'}
